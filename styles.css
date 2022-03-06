@@ -1,16 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+.container-fluid {
+    overflow-x: hidden !important;
+}
 .navbar {
-    color: white;
-    font-weight: bold;
+    /* padding-bottom: 100px; */
 }
 .navbar-brand, .active, .nav-item, .nav-link, .nav-item:hover {
     color: white;
+    font-weight: bold;
+}
+.spacer25 {
+    display: block;
+    padding: 25px;
 }
 body {
     color: white;
     background-color: rgb(75, 104, 158);
     font-family: 'Montserrat', sans-serif;
 }
+section {
+    padding-top: 50px;
+}
 h1, h2, h3 {
     font-weight: bold;
 }
-
+h1 {
+    font-size: 5em;
+}
+h2 {
+    font-size: 3em;
+}
+p {
+    padding-bottom: 30px;
+}
+#services_container {
+    /* background-color: black; */
+}
