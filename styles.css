@@ -1,0 +1,16 @@
+.navbar {
+    color: white;
+    font-weight: bold;
+}
+.navbar-brand, .active, .nav-item, .nav-link, .nav-item:hover {
+    color: white;
+}
+body {
+    color: white;
+    background-color: rgb(75, 104, 158);
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3 {
+    font-weight: bold;
+}
+
